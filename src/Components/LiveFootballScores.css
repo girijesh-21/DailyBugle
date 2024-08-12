@@ -1,0 +1,49 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .match-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .match-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-logo {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .team-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .score {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2196f3;
+  }
+  

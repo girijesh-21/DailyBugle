@@ -1,0 +1,151 @@
+* General body styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.signup-form {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+  position: relative; 
+  margin-top: 40px;
+}
+
+
+.signup-form .close0 {
+  margin-left: 330px;
+  margin-top: -10px;
+  cursor: pointer;
+  
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.signup-form input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 90%;
+}
+
+
+.radio-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #666; 
+}
+
+.radio-group input {
+  margin-right: 5px;
+  margin-top: 12zpx;
+}
+
+
+.continue-btn {
+  background: #be1b1b; 
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.continue-btn:hover {
+  background: #a51a1a; 
+}
+
+
+.or {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+  color: #999;
+}
+
+
+.google-btn,
+.apple-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7; 
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #333; 
+}
+
+.google-btn img,
+.apple-btn img {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.google-btn:hover,
+.apple-btn:hover {
+  background: #eee; 
+}
+
+
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link a {
+  color: #0073e6; 
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+.submit {
+  width: 100%;
+  padding: 15px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.signup-form a {
+  color: #000000;
+}
